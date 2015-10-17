@@ -1,0 +1,17 @@
+body {
+  background-color: #1a1930;
+  font-family: Helvetica;
+}
+h1 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+
+img{
+	width: 300px;
+	height: 500px;
+} 
