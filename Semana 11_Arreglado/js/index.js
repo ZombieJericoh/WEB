@@ -8,7 +8,7 @@ var ww = window.innerWidth,
     y: null
   },
   particles = []
-colors = ["red", "yellow", "green", "cyan", "pink", "#82B73F", "#02DFF4", "#006573", "#005572"];
+colors = ["red", "yellow", "green", "cyan", "pink"];
 
 ctx.canvas.width = ww;
 ctx.canvas.height = wh;
