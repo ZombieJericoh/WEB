@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #ededed;
+  padding-top: 70px;
+  position: relative;
+}
+
+.container {
+  width: 75vw;
+  max-width: 500px;
+  margin: 2.5vw auto;
+}
+
+.light {
+  fill: #ededed;
+}
+
+.dark {
+  fill: #4d4d4e;
+}
+
+.step,
+.circle {
+  visibility: hidden;
+}
