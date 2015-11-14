@@ -1,0 +1,249 @@
+@font-face {
+	font-family: "Futura";
+	src: url(fonts/FuturaStd-Medium.otf);
+}
+
+
+html, body{
+	height: 2800px;
+	background-color: #000;
+	position: relative;
+}
+
+body{
+	font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+	text-align: center;
+	text-shadow:0 1px 3px rgba(0,0,0,.5);
+	color: #fff;
+	height: 100%;
+}
+
+a, a:focus, a:hover{
+	color: #fff;
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus{
+	color: #fff;
+	text-shadow: none; /*Prevent inheritence from "body"*/
+	background-color: #aa532d;
+	border: 1px solid #aa532d;
+ }
+
+.site-wrapper{
+	display: table;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	-webkit box-shadow: :inset 0 0 100px rgba(0, 0, 0,.5);
+	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+.thumbnail{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.cover-container{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.inner{
+	padding: 30px;
+}
+
+.home{
+	padding-bottom: 150px;
+
+}
+
+.home > img + img{
+	width: 700px;
+	padding-top: 50px;
+}
+
+.uses{
+	padding: 40px;
+	background-color: #7188c4;
+}
+
+.uses > h2{
+	padding-bottom: 30px; 
+}
+
+.uses > p{
+	padding-bottom: 20px;
+	margin-right: 185px;
+}
+.creator{
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.creator > p{
+  text-align:-webkit-center;
+  padding-top: 30px;
+
+}
+
+.creator > p + p{
+	padding: 5px;
+}
+
+p{
+  text-align: center;
+  padding-left: 200px;
+}
+
+.type{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #7188c4;
+}
+
+.type > h2{
+	margin-bottom: 50px;
+}
+
+.download{
+	text-decoration: none;
+	font-size: 16pt;
+	padding-top: 50px;
+}
+
+.download > h2{
+	padding-bottom: 20px;
+}
+
+.lead{
+  font-size:medium;
+}
+
+.masthead-brand{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: -100px;
+}
+
+.navbar-fixed-top{
+	padding-right: 200px;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.masthead-nav > li{
+	display: inline-block;
+}
+
+.masthead-nav > li + li {
+	margin-left: 20px;
+}
+
+.masthead-nav > li > a{
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	color: rgba(255, 255, 255, .75);
+	border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus{
+	background-color: transparent;
+	border-bottom-color: #a9a9a9;
+	border-bottom-color: rgba(255,255,255,.25);
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus{
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+@media (min-width: 768px){
+	.masthead-brand{
+		float: left;
+	}
+	.masthead-nav{
+		float: right;
+	}
+}
+
+.cover{
+	padding: 0 20px;
+}
+
+.cover .btn-lg{
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+@media (min-width: 768px) {
+	.masthead{
+		position: fixed;
+		top: 0;
+	}
+
+	.mastfoot{
+		position: fixed;
+		bottom: 0;
+	}
+
+	.site-wrapper-inner{
+		vertical-align: middle;
+	}
+	.masthead,
+	.mastfoot,
+	.cover-container{
+		width: 100%;
+	}
+
+	h1 {
+		margin-top: 520px;
+	}
+}
+
+@media (max-width: 1280px){
+	.masthead-brand,
+	.masthead-nav,
+	.cover-container,
+	.inner{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.masthead,
+	.mastfoot,
+	.cover-container{
+		width: 800px;
+	}
+
+	.site-wrapper-inner {
+		margin-top: 220px;
+	}
+}
+@media (min-width: 360px) {
+	.masthead-nav {
+		width: 350px;
+	}
+	.masthead-brand{
+		margin-right:210px;
+	}
+	h1{
+		margin-top: 120px;
+	}
+	p{
+		margin-right: 150px;
+	}
+	.inner > h1{
+		text-align: justify;
+	}
+	.inner > p{
+		text-align: justify;
+	}
+}
