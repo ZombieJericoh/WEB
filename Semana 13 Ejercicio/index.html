@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>Ejercicio ScrollIt</title>
+    <script src='js/jquery-1.10.2.min.js' type='text/javascript'></script>
+    <script src='js/scrollIt.min.js' type='text/javascript'></script>
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet'>
+    
+  </head>
+  <body>
+    <div class='nav-container'>
+      <nav>
+        <ul>
+          <li>
+            <a class='active' data-scroll-nav='0'>Discover</a>
+          </li>
+          <li>
+            <a data-scroll-nav='1'>Join</a>
+          </li>
+          <li>
+            <a data-scroll-nav='2'>Items</a>
+          </li>
+          <li>
+            <a data-scroll-nav='3'>Community</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section data-scroll-index='0'>
+      <div class='content'>
+        <h1>Wonder World</h1>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this jQuery plugin - ScrollIt.js" data-via="ChrisPolis">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <iframe src="http://ghbtns.com/github-btn.html?user=cmpolis&repo=scrollIt.js&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+        <h2>Discover</h2>
+        <p>&#191;Are you prepared to discover the misteries of this new world&#63; <a href='http://bytemuse.com/post/easy-scrolling-pages-with-scrollit-dot-js/'>Here's a brief blog plost explaining it.</a></p>
+        <h4>If you're sure of this then...</h4>
+        <ul class='why-list'>
+          <li><b>Beware of monsters:</b> This creatures may look cute and stuff but, when they get angry, my friend... <strong> RUN</strong></li>
+          <li><b>Take potions:</b> I'm sure you don't wanna die here.</li>
+          <li><b>Have a Party:</b> With friend adventures are better.</li>
+          <li><b>Enjoy:</b> Enjoy the game at max.</li>
+        </ul>
+      </div>
+    </section>
+    <section data-scroll-index='1'>
+      <div class='content'>
+        <h2>Usage</h2>
+        <p>
+          1) User Name
+          <script src="https://gist.github.com/cmpolis/5954658.js"></script>
+        </p>
+        <p>
+          2) E-Mail
+          <script src="https://gist.github.com/cmpolis/5954675.js"></script>
+        </p>
+        <p>
+          3) Pass
+          <script src="https://gist.github.com/cmpolis/5954686.js"></script>
+        </p>
+        <p>
+          4) Re-type Pass
+          <script src="https://gist.github.com/cmpolis/5954690.js"></script>
+        </p>
+        <p>
+          5) Terms and conditions
+          <script src="https://gist.github.com/cmpolis/5954703.js"></script>
+        </p>
+        <p><i>View the source of this page for an example</i></p>
+      </div>
+    </section>
+    <section data-scroll-index='2'>
+      <div class='content'>
+        <h2>Options</h2>
+        <p>To customize scrollIt.js, simply pass in an options object: <i>(defaults shown)</i></p>
+        <script src="https://gist.github.com/cmpolis/5954639.js"></script>
+      </div>
+    </section>
+    <section data-scroll-index='3'>
+      <div class='content'>
+        <h2>Credit</h2>
+        <p>ScrollIt.js was created by <a href='http://twitter.com/chrispolis'>@ChrisPolis</a>.</p>
+        <p>Feel free to use, share and fork it. <a href='https://github.com/cmpolis/scrollIt.js'>It's on Github.</a></p>
+        <p>Enjoy!</p>
+        <p class='bottom-link'>
+          <a data-scroll-goto='0'>Back to top</a>
+        </p>
+      </div>
+    </section>
+  
+  <script src='js/jquery-1.10.2.min.js' type='text/javascript'></script>
+    <script src='js/scrollIt.min.js' type='text/javascript'></script>
+    <script>$(function() { $.scrollIt(); });</script>
+  </body>
+</html>
