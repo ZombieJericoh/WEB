@@ -1,0 +1,26 @@
+body{
+	font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+	text-align: center;
+	color: #ff9900;
+	background: #b21408;
+}
+
+p {
+	margin-top: 50px;
+	font-size: 60px;
+}
+
+p + p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+button{
+	margin: auto;
+	width: 200px;
+	height: 60px;
+	font-family: "Futura";
+	font-size: 20px;
+	border-radius: 5%;
+	background-color: #fff;
+}

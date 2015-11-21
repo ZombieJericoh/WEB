@@ -1,0 +1,43 @@
+body{
+	background-image: url("../images/Wall_POP.jpg");
+	font-family: "Neutra Display", "Archer", "Helvetica", Arial, sans-serif;
+	color: #08f974;
+	font-size: 35px;
+	background-color: #000;
+	text-align: center;
+	overflow: hidden;
+}
+
+p {
+	position: relative;
+	width: 400px;
+	height: 90px;
+	text-align: center;
+	margin-top: 225px;
+	margin-left: 650px;
+}
+
+div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 60px;
+	text-align: center;
+	color: yellow;
+	background: red;
+	padding-top: 25px;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+span {
+	display: none;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
