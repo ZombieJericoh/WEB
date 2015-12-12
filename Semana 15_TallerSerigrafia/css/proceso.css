@@ -2,7 +2,7 @@
 	font-family: "Gotham";
 	src: url(../fonts/Gotham-Book.otf);
 	src: url(../fonts/Gotham-Medium.otf);
-	src: url(../fonts/Gotham-Bold.otf);
+
 }
 
 body {
@@ -73,4 +73,5 @@ h6{
 
 footer{
 	margin-top: 30px;
+	font-size: 12pt;
 }

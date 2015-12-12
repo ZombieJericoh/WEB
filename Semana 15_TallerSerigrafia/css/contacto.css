@@ -2,7 +2,7 @@
 	font-family: "Gotham";
 	src: url(../fonts/Gotham-Book.otf);
 	src: url(../fonts/Gotham-Medium.otf);
-	src: url(../fonts/Gotham-Bold.otf);
+
 }
 
 body {
@@ -92,4 +92,8 @@ form{
 form > button{
 	background-color: #0071BC;
 	color: #0071BC;
+}
+
+footer{
+	font-size: 12pt;
 }

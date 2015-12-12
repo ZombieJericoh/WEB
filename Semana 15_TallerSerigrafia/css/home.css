@@ -2,7 +2,7 @@
   font-family: "Gotham";
   src: url(../fonts/Gotham-Book.otf);
   src: url(../fonts/Gotham-Medium.otf);
-  src: url(../fonts/Gotham-Bold.otf);
+
 }
 
 body {
@@ -106,7 +106,7 @@ a:hover{
 
 footer{
 	margin-top: 180px;
-
+  font-size: 12pt;
 }
 
 p{
