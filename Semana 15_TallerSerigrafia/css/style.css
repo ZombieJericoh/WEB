@@ -1,0 +1,31 @@
+@font-face{
+	font-family: "Gotham";
+	src: url(../fonts/Gotham-Book.otf);
+	src: url(../fonts/Gotham-Medium.otf);
+	src: url(../fonts/Gotham-Bold.otf);
+}
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+	padding-top: 30px;
+	min-height: 80px;
+	text-transform: uppercase;
+	font-family: "Gotham";
+}
+
+/* GALLERY */
+
+.gallery .jumbotron {
+	background: url(../images/galeria.jpg) no-repeat;
+	background-size: 1800px 400px;
+	height: 400px;
+}
+
+.gallery img {
+	margin-bottom: 20px;
+}

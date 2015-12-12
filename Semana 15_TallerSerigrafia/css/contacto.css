@@ -1,0 +1,95 @@
+@font-face{
+	font-family: "Gotham";
+	src: url(../fonts/Gotham-Book.otf);
+	src: url(../fonts/Gotham-Medium.otf);
+	src: url(../fonts/Gotham-Bold.otf);
+}
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+	padding-top: 30px;
+	min-height: 80px;
+	text-transform: uppercase;
+	font-family: "Gotham";
+}
+
+/* GALLERY */
+
+.gallery .jumbotron {
+	background: url(../images/contacto.png) no-repeat;
+	background-size: 1800px 400px;
+	height: 400px;
+}
+
+.gallery img {
+	margin-bottom: 20px;
+}
+
+.container h1{
+	margin-top: 10px;
+}
+
+h1{
+	padding-top: 30px;
+	font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+#exampleInputMensaje{
+	height: 80px;
+}
+
+#exampleInputMat{
+	height: 30px;
+	width: 150px;
+}
+
+#exampleInputDim{
+	height: 30px;
+	width: 70px;
+}
+
+#exampleInputCol{
+	height: 30px;
+	width: 250px;
+}
+
+form{
+	width: 600px;
+}
+
+p{
+	font-family: "Gotham";
+	font-size: 14px;
+}
+
+h2{
+	font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+	color: #0071BC;
+}
+
+h3{
+	font-family: "Gotham";
+}
+
+h3 + h3{
+	margin-top: 5px;
+}
+
+form{
+	font-family: "Gotham";
+	font-size: 10pt;
+}
+
+.row > div + div{
+	margin-left: 250px;
+}
+
+form > button{
+	background-color: #0071BC;
+	color: #0071BC;
+}
